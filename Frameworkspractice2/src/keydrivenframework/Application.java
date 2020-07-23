@@ -13,7 +13,7 @@ public class Application {
 	public void verifyInvalidLogin() throws IOException {
 		
 		String[][] data = GenericMethods.getData("D:\\SeleniumFiles\\July2020\\TestData.xlsx", "Sheet2");
-		
+		//Making code changes after R1.1
 		for(int i = 1; i<data.length; i++) {
 			switch(data[i][3]) {
 			case "openBrowser":
